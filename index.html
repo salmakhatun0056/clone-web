@@ -1,0 +1,700 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body class="font">
+    <header class="bg-blue-500 sticky top-0 left-0 z-[999]">
+        <div>
+            <nav
+                class="flex  justify-between items-center container mx-auto lg:px-40 md:px-12 gap-12 px-6 text-white py-4">
+
+                <div>
+                    <h1 class="text-xl  font-bold"> Kn.Ford</h1>
+                </div>
+                <div>
+                    <ul id="main_menu"
+                        class="absolute font-bold hidden lg:flex lg:gap-12 md:gap-4 lg:top-0 lg:relative top-14 bg-blue-500  space-y-4 lg:space-y-0 w-full left-0 p-6 lg:p-0">
+                        <li class=""><a class="active" href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="main_button" class="lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                        </svg>
+                    </button>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <div class="flex items-center"
+        style="background: url(images/bg_1.jpg); background-size: cover; background-repeat: no-repeat; height: 90vh;  background-attachment: fixed; min-height: 100%; z-index: 0;  background-position: top center;">
+
+
+
+        <section data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" id="home"
+            class="container mx-auto md:px-40 px-4   text-white space-y-7">
+            <span class="bg-white text-blue-500 px-4 py-2  font-bold rounded-md mt-28">Hi There!</span>
+            <div>
+                <h1 class="md:text-6xl text-4xl">I am Keannu Ford </h1>
+                <h1 class="md:text-6xl text-4xl mt-3">A Web Designer</h1>
+            </div>
+            <p class="leading-8 ">Far far away, behind the word mountains, far from the countries Vokalia and <br>
+                Consonantia, there live the blind texts.
+            </p>
+            <div class="md:flex  gap-5">
+                <a class="bg-blue-700 rounded-md px-8 py-3 flex items-center justify-center  block text-white"
+                    href="#">HIRE ME <i class='bx bx-right-arrow-alt text-white text-xl '></i></a>
+                <a class="bg-white rounded-md px-8 py-3 flex items-center justify-center md:mt-0 mt-5  block text-blue-500"
+                    href="#">VIEW PORTFOLIO<i class='bx bx-right-arrow-alt text-blue-500 text-xl '></i></a>
+            </div>
+            <div class="flex gap-5 text-white font-bold">
+                <a href="#">+ FACEBOOK</a>
+                <a href="#">+ TWITTER</a>
+                <a href="#">+ LINKEDIN</a>
+            </div>
+        </section>
+    </div>
+    <!-- about section -->
+    <section id="about"
+        class="grid md:grid-cols-2 grid-cols-1 gap-12  my-32 gap-10 container mx-auto lg:px-40 px-6 md:px-12">
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            class="-z-40 w-full object-cover"
+            style="background: url(images/about.jpg);background-size: cover; background-repeat: no-repeat; background-position: center; height: 500px; ">
+        </div>
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+            class="space-y-7 mt-12 ">
+            <div class="flex md:gap-5 gap-2">
+                <a class="bg-blue-500 text-white font-bold text-sm md:px-6 px-4 py-2 rounded-md" href="#">ABOUT</a>
+                <a class="bg-white text-gray-500 font-bold text-sm md:px-6 px-4 py-2 rounded-md" href="#">SKILLS</a>
+                <a class="bg-white text-gray-500 font-bold text-sm md:px-6 px-4 py-2 rounded-md" href="#">EXPERIENCE</a>
+            </div>
+            <h1 class="md:text-4xl text-3xl font-bold text-gray-700">My Story</h1>
+            <p class="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+            <h3 class="text-gray-700 text-2xl font-bold">I Do Web Design & Developement since I was 18 Years Old</h3>
+            <p class="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the
+                blind texts.</p>
+        </div>
+    </section>
+    <!-- about section end -->
+    <!-- services section -->
+    <section id="services">
+        <div class="  my-32  container mx-auto lg:px-40 px-6 md:px-12">
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                class="flex justify-center items-center">
+                <div class="text-center space-y-4">
+                    <h6 class="text-blue-500 text-sm font-bold">SERVICES</h6>
+                    <h2 class="md:text-4xl  text-3xl font-bold text-gray-700">This is My Expertise, The </h2>
+                    <h2 class="md:text-4xl  text-3xl font-bold text-gray-700"> Services I'll
+                        Provide My Clients</h2>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7 mt-16 ">
+                <div class="bg-white p-10 space-y-5 rounded-md shadow-lg">
+                    <div class="bg-blue-500 p-2 text-white w-16 h-16 flex items-center justify-center">
+                        <i class='bx bx-code-block text-5xl'></i>
+                    </div>
+                    <h3 class="font-bold text-blue-500 text-xl">UI & UX Design</h3>
+                    <p class="text-gray-500 leading-8 ">Far far away, behind the word mountains, far from the countries
+                        Vokalia
+                        and
+                        Consonantia, there live
+                        the blind texts.</p>
+                    <a class="flex items-center  text-blue-500" href="#">Read More
+                        <i class='bx bx-right-arrow-alt text-blue-500 text-xl '></i></a>
+                </div>
+                <div class="bg-white p-10 space-y-5 rounded-md shadow-lg">
+                    <div class="bg-blue-500 p-2 text-white w-16 h-16 flex items-center justify-center">
+                        <i class='bx bx-code-block text-5xl'></i>
+                    </div>
+                    <h3 class="font-bold text-blue-500 text-xl">Web Development </h3>
+                    <p class="text-gray-500 leading-8 ">Far far away, behind the word mountains, far from the countries
+                        Vokalia
+                        and
+                        Consonantia, there live
+                        the blind texts.</p>
+                    <a class="flex items-center  text-blue-500" href="#">Read More
+                        <i class='bx bx-right-arrow-alt text-blue-500 text-xl '></i></a>
+                </div>
+                <div class="bg-white p-10 space-y-5 rounded-md shadow-lg">
+                    <div class="bg-blue-500 p-2 text-white w-16 h-16 flex items-center justify-center">
+                        <i class='bx bxl-graphql text-5xl'></i>
+                    </div>
+                    <h3 class="font-bold text-blue-500 text-xl">Graphic Design</h3>
+                    <p class="text-gray-500 leading-8 ">Far far away, behind the word mountains, far from the countries
+                        Vokalia
+                        and
+                        Consonantia, there live
+                        the blind texts.</p>
+                    <a class="flex items-center  text-blue-500" href="#">Read More
+                        <i class='bx bx-right-arrow-alt text-blue-500 text-xl '></i></a>
+                </div>
+            </div>
+            <div class="text-center my-16">
+                <p class="text-gray-500 font-bold ">Have any works you want to done by me? <a class="text-blue-500"
+                        href="#">Contact Me</a></p>
+                <p class="text-gray-500   mt-5">Far far away, behind the word mountains, far from the countries
+                </p>
+                <p class="text-gray-500 "> Vokalia and Consonantia, there live the blind texts. </p>
+            </div>
+        </div>
+        <div class="my-20 flex items-center lg:h-[250px] md:h-[300px] h-[350px]"
+            style="background: linear-gradient(rgba(9, 119, 209, 0.829), rgba(8, 86, 231, 0.699)),url(images/bg_3.jpg.webp);background-size: cover; background-repeat: no-repeat; background-position: center center; ">
+            <div class=" container mx-auto lg:px-40 px-6 md:px-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    class="flex items-center gap-3 text-white">
+                    <i class='bx bx-user-voice text-7xl'></i>
+                    <div>
+                        <h5 class="text-4xl font-bold">3,000</h5>
+                        <h6 class="font-bold">Happy Customer</h6>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                    class="flex items-center gap-3 text-white">
+                    <i class='bx bxs-camera-plus text-7xl'></i>
+                    <div>
+                        <h5 class="text-4xl font-bold">320</h5>
+                        <h6 class="font-bold">PROJECT COMPLETED</h6>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000"
+                    class="flex items-center gap-3 text-white ">
+                    <i class='bx bxs-coffee-togo text-7xl'></i>
+                    <div>
+                        <h5 class="text-4xl font-bold">1,000</h5>
+                        <h6 class="font-bold">CUPS OF COFFEE</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+    <!-- portfolio section -->
+    <section id="portfolio" class="my-32 -z-50 container mx-auto lg:px-40 px-6 md:px-12">
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            class="text-center space-y-4 mb-16">
+            <h6 class="text-blue-500 text-sm font-bold">PORTFOLIO</h6>
+            <h2 class="md:text-4xl  text-3xl font-bold text-gray-700">My Latest Work</h2>
+        </div>
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-7 mt-16">
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="mainContainer  relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <div class="">
+                    <img class="image object-cover" src="images/project-1.jpg" alt="">
+                </div>
+                <div class="overly   flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="mainContainer relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <img class="image object-cover" src="images/project-2.jpg" alt="">
+                <div class="overly flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="mainContainer relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <img class="image object-cover" src="images/project-3.jpg" alt="">
+                <div class="overly flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class=" mainContainer relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <img class="image object-cover" src="images/project-4.jpg" alt="">
+                <div class="overly flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class=" mainContainer relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <img class="image" src="images/project-5.jpg" alt="">
+                <div class="overly flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class=" mainContainer relative lg:w-[450px] md:w-[300px] w-full mx-auto">
+                <img class="image" src="images/project-6.jpg" alt="">
+                <div class="overly flex justify-center items-center">
+                    <div class="text-white text-center">
+                        <h3 class="text-xl my-5">Branding and Illustrator Design</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class=" mb-20 md:mt-40 mt-28">
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                class="text-center space-y-4 mb-16">
+                <h6 class="text-blue-500 text-sm font-bold">TESTIMONIAL</h6>
+                <h2 class="md:text-4xl  text-3xl font-bold text-gray-700">Our Successful Students</h2>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7 mt-16">
+                <div class="bg-white p-6 shadow-lg">
+                    <div class="flex gap-5 justify-center items-center">
+                        <div class=" relative">
+                            <img class="rounded-full w-20" src="images/person_3.jpg.webp" alt="">
+                            <div class="absolute bottom-0  right-0 bg-blue-500 w-8 h-8 rounded-full p-2 flex ">
+                                <svg class="h-4 mx-auto mb-3 text-gray-400 text-white" viewBox="0 0 24 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-700">Roger SCOTT</h3>
+                            <h6 class="text-blue-500 text-sm font-bold mt-2">MARKETING MANAGER</h6>
+                        </div>
+
+                    </div>
+                    <p class="my-7 text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and
+                        Consonantia, there
+                        live the blind texts.</p>
+                </div>
+                <div class="bg-blue-500 p-6 shadow-lg">
+                    <div class="flex gap-5 justify-center items-center">
+                        <div class=" relative">
+                            <img class="rounded-full w-20" src="images/person_1.jpg.webp" alt="">
+                            <div class="absolute bottom-0  right-0 bg-white w-8 h-8 rounded-full p-2 flex ">
+                                <svg class="h-4 mx-auto mb-3 text-blue-500 text-blue-500" viewBox="0 0 24 27"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Roger SCOTT</h3>
+                            <h6 class="text-white text-sm font-bold mt-2">MARKETING MANAGER</h6>
+                        </div>
+
+                    </div>
+                    <p class="my-7 text-white">Far far away, behind the word mountains, far from the countries
+                        Vokalia and
+                        Consonantia, there
+                        live the blind texts.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg">
+                    <div class="flex gap-5 justify-center items-center">
+                        <div class=" relative">
+                            <img class="rounded-full w-20" src="images/person_2.jpg.webp" alt="">
+                            <div class="absolute bottom-0  right-0 bg-blue-500 w-8 h-8 rounded-full p-2 flex ">
+                                <svg class="h-4 mx-auto mb-3 text-gray-400 text-white" viewBox="0 0 24 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-700">Roger SCOTT</h3>
+                            <h6 class="text-blue-500 text-sm font-bold mt-2">MARKETING MANAGER</h6>
+                        </div>
+
+                    </div>
+                    <p class="my-7 text-gray-500">Far far away, behind the word mountains, far from the countries
+                        Vokalia and
+                        Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
+    <!-- blog section -->
+    <section id="blog" class="container mx-auto lg:px-40 px-6 md:px-12 md:my-40 my-24">
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            class="text-center space-y-4">
+            <h6 class="text-blue-500 text-sm font-bold">OUR BLOG</h6>
+            <h2 class="md:text-4xl  text-3xl font-bold text-gray-700">Recent From Blog</h2>
+        </div>
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-7 mt-16">
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_1.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_2.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_3.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_4.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_5.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="max-w-md rounded overflow-hidden shadow-lg">
+                <img class="w-full h-80 object-cover" src="images/image_6.jpg.webp" alt="Sunset in the mountains">
+                <div class="px-6 py-4">
+                    <div class="flex items-center gap-3 my-5">
+                        <div class="flex gap-2 items-center">
+                            <i class='bx bxs-calendar text-xl text-blue-500'></i>
+                            <p class="text-gray-500 font-bold text-sm">December 25,2024</p>
+                        </div>
+                        <div class="flex gap-2 items-center text-xl text-blue-500">
+                            <i class='bx bxs-message-rounded'></i>
+                            <a href="#" class="text-blue-500 font-bold text-sm">3 Comments</a>
+                        </div>
+                    </div>
+                    <div class="font-bold text-xl mb-2 hover:text-blue-500 transition-.2s">Tips About Creating A New Web
+                        Design</div>
+                    <p class="text-gray-700 text-base mb-10">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- pricing section -->
+    <section id="pricing" class="container mx-auto lg:px-40 px-6 md:px-12 md:my-40 my-24">
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            class="text-center space-y-4">
+            <h6 class="text-blue-500 text-sm font-bold">MY PRICING</h6>
+            <h2 class="md:text-4xl  text-3xl font-bold text-gray-700">Pricing & Packages</h2>
+        </div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7 mt-16">
+
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-blue-500 font-bold">Basic Plan</h3>
+                <div class="flex justify-center items-baseline my-8">
+                    <div class="flex">
+                        <p class="text-2xl text-blue-500 mr-2">$</p>
+                        <span class="mr-2 text-5xl text-blue-500 font-bold">49K</span>
+                    </div>
+                </div>
+                <!-- List -->
+                <p class="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there
+                    live the blind texts.</p>
+                <a href="#"
+                    class="text-blue-500 border border-blue-500 border-2 hover:bg-blue-500 hover:text-white my-10 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-4 text-center dark:text-blue-500  dark:focus:ring-primary-900">Get
+                    started</a>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-blue-500 font-bold">BEGGINER Plan</h3>
+                <div class="flex justify-center items-baseline my-8">
+                    <div class="flex">
+                        <p class="text-2xl text-blue-500 mr-2">$</p>
+                        <span class="mr-2 text-5xl text-blue-500 font-bold">79K</span>
+                    </div>
+                </div>
+                <!-- List -->
+                <p class="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there
+                    live the blind texts.</p>
+                <a href="#"
+                    class="text-blue-500 border border-blue-500 border-2 hover:bg-blue-500 hover:text-white my-10 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-4 text-center dark:text-blue-500  dark:focus:ring-primary-900">Get
+                    started</a>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-blue-500 font-bold">PRIMIUM Plan</h3>
+                <div class="flex justify-center items-baseline my-8">
+                    <div class="flex">
+                        <p class="text-2xl text-blue-500 mr-2">$</p>
+                        <span class="mr-2 text-5xl text-blue-500 font-bold">109K</span>
+                    </div>
+                </div>
+                <!-- List -->
+                <p class="text-gray-500">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there
+                    live the blind texts.</p>
+                <a href="#"
+                    class="text-blue-500 border border-blue-500 border-2 hover:bg-blue-500 hover:text-white my-10 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-4 text-center dark:text-blue-500  dark:focus:ring-primary-900">Get
+                    started</a>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+    <!-- contact section -->
+    <section id="contact" class="md:mt-40 mt-24">
+
+
+        <div class="bg-white grid md:grid-cols-2 grid-cols-1 gap-7 ">
+            <div>
+                <img class="h-[750px] object-cover" src="images/Screenshot 2024-12-25 195740.png" alt="">
+            </div>
+            <div class="my-16 md:pr-16 pr-6 mx-auto container space-y-5 md:px-0 px-6">
+                <h3 class="text-3xl">Contact us</h3>
+                <p class="text-gray-500">We're open for any suggestion or just to have a chat</p>
+                <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+                    <div>
+                        <h6 class="text-sm font-semibold">MY ADDRESS:</h6>
+                        <p class="text-gray-500 mt-2">198 West 21th Street, <br> Suite 721 New York NY 10016</p>
+                    </div>
+                    <div>
+                        <h6 class="text-sm font-semibold">MY EMAIL:</h6>
+                        <p class="text-gray-500 mt-2">info@youself.com</p>
+                    </div>
+                    <div>
+                        <h6 class="text-sm font-semibold">MY PHONE:</h6>
+                        <p class="text-gray-500 mt-2">+1675478545899</p>
+                    </div>
+                </div>
+                <form action="#" class="space-y-4 ">
+                    <div class="flex gap-5">
+                        <input
+                            class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="username" type="text" placeholder="Name">
+                        <input
+                            class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="username" type="email" placeholder="Email">
+                    </div>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="Subject">
+                    <input
+                        class="shadow appearance-none border rounded w-full py-12 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="Create a message here">
+                    <button class="bg-blue-500 py-2 px-4  text-sm text-white rounded-md uppecase font-bold"
+                        type="submit">SEND MESSAGE</button>
+                </form>
+                <p class="mt- text-xl">Follow me here</p>
+                <div class="flex gap-3 mt-5">
+                    <a class="text-blue-500 font-bold text-sm" href="#">FACEBOOK</a>
+                    <a class="text-blue-500 font-bold text-sm" href="#">TWITTER</a>
+                    <a class="text-blue-500 font-bold text-sm" href="#">INSTRAGRAM</a>
+                    <a class="text-blue-500 font-bold text-sm" href="#">DRIBBER</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-500 h-48 flex items-center justify-center">
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-40 items-center">
+                <div class="text-white">
+                    <h2 class="text-2xl">Have any works you want to done by me?</h2>
+                    <p>Far far away, behind the word mountains</p>
+                </div>
+                <div>
+                    <a class="text-white border border-white p-4 block text-center font-bold rounded-md text-sm"
+                        href="#">Contact
+                        Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section -->
+    <footer class="bg-[#EEEEEE]">
+        <div
+            class="container py-16 mx-auto lg:px-40 px-6 md:px-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20">
+            <div class="">
+                <h3 class="text-2xl font-bold text-black mb-10">Kn.Ford</h3>
+                <p class="text-gray-500">A small river named Duden flows by their place and supplies it with the
+                    necessary regelialia.</p>
+                <div class="flex gap-3 mt-5">
+                    <div class="bg-blue-500 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class='bx bxl-twitter text-2xl text-white'></i>
+                    </div>
+                    <div class="bg-blue-500 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class='bx bxl-instagram text-2xl text-white'></i>
+                    </div>
+                    <div class="bg-blue-500 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class='bx bxl-facebook text-2xl text-white'></i>
+                    </div>
+                </div>
+            </div>
+            <div class=" space-y-5">
+                <h3 class="text-xl text-black mb-10">Services</h3>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bx-right-arrow-alt text-blue-500 '></i>
+                    <a class="text-gray-500" href="#">Web Design</a>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bx-right-arrow-alt text-blue-500 '></i>
+                    <a class="text-gray-500" href="#">Web Developement</a>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bx-right-arrow-alt text-blue-500 '></i>
+                    <a class="text-gray-500" href="#">Graphic Design</a>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bx-right-arrow-alt text-blue-500 '></i>
+                    <a class="text-gray-500" href="#">UI/UX Design</a>
+                </div>
+
+            </div>
+            <div class="space-y-5">
+                <h3 class="text-xl text-black mb-10">Have A Quitions?</h3>
+                <div class="flex gap-4 justify-between">
+                    <i class='bx bxs-flag-alt text-blue-500 text-2xl'></i>
+                    <a class="text-gray-500" href="#"> 203 Fake St. Mountain View, San Francisco, California, USA</a>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bxs-phone text-blue-500 text-2xl'></i>
+                    <a class="text-gray-500" href="#">+67237675787</a>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class='bx bxs-envelope text-blue-500 text-2xl'></i>
+                    <i class='bx '></i>
+                    <a class="text-gray-500" href="#">info@gmail.com</a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <footer class="bg-[#E9E9E9]">
+        <p class="text-center py-10 text-gray-500 text-sm">Copyright ©2024 All rights reserved | This template is made
+            with by <a href="#" class="text-blue-500">Colorlib</a></p>
+    </footer>
+    <!-- footer section end -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
