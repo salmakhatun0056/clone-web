@@ -6,7 +6,7 @@ main_button.addEventListener('click', () => {
 })
 
 let section = document.querySelectorAll('section');
-let navLink = document.querySelectorAll('header nav ul li a');
+let navLink = document.querySelectorAll('header nav ul  a');
 window.onscroll = () => {
     section.forEach(sec => {
         let top = window.scrollY;
@@ -16,7 +16,7 @@ window.onscroll = () => {
         if (top > offset && top < offset + height) {
             navLink.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav ul li a[href*=' + id + ']').classList.add('active')
+                document.querySelector('header nav ul  a[href*=' + id + ']').classList.add('active')
             })
         }
     })
